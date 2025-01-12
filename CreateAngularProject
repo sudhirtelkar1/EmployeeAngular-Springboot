@@ -16,8 +16,8 @@ Run the following command:
 
 bash  
 Copy code  
-ng new my-angular-app  
-Replace my-angular-app with the desired name for your project.  
+ng new employee-frontend  --no-standalone
+
 
 Configuration prompts:  
 
@@ -39,3 +39,18 @@ Copy code
 ng serve  
 The default development server runs at http://localhost:4200. Open this URL in your browser to see your Angular app.  
 
+In terminal of the project, run the following to install bootstrap
+npm install bootstrap --save
+
+In your projects angular.json file modify the following 
+            "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+            ]
+
+Generate the employee model class 
+ng g class employee
+
+Generate the employee-list component 
+
+ng g c employee-list
