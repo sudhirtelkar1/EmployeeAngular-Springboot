@@ -1,0 +1,41 @@
+HOW TO CREATE NEW ANGULAR PROJECT  
+Step 1: Install Angular CLI  
+If you haven’t installed the Angular CLI yet, install it globally using npm (Node Package Manager):  
+
+bash  
+npm install -g @angular/cli  
+To check if it's installed:  
+
+bash  
+Copy code  
+ng version  
+Step 2: Create a New Angular Project  
+Open a terminal or command prompt.  
+
+Run the following command:  
+
+bash  
+Copy code  
+ng new my-angular-app  
+Replace my-angular-app with the desired name for your project.  
+
+Configuration prompts:  
+
+Would you like to add Angular routing?  
+Type y (yes) or n (no) depending on whether you want to include Angular's router.  
+Choose a stylesheet format:  
+Choose between CSS, SCSS, SASS, or LESS by typing the corresponding number.  
+The CLI will create a new directory (my-angular-app) and scaffold the project structure.  
+
+Step 3: Navigate to the Project Directory  
+bash  
+Copy code  
+cd my-angular-app  
+Step 4: Serve the Application  
+To run the project in development mode:  
+
+bash  
+Copy code  
+ng serve  
+The default development server runs at http://localhost:4200. Open this URL in your browser to see your Angular app.  
+
